@@ -1,6 +1,6 @@
-# checksplash
+# Flutter SplashScreen Example
 
-A new Flutter Splash Screen Example,Easy to build 
+A new Flutter Splash Screen Example,Easy to build ,Support for both Android and iOS.
 
 # Package
 
