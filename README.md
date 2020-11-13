@@ -1,16 +1,36 @@
 # checksplash
 
-A new Flutter project.
+A new Flutter Splash Screen Example,Easy to build 
 
-## Getting Started
+# Package
 
-This project is a starting point for a Flutter application.
+Add this package in your Pubspec.yaml
 
-A few resources to get you started if this is your first Flutter project:
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+//Add this line
+  mysplashscreen: ^0.0.1
+```
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+//Add this code in your main.dart
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Eg :-
+
+```flutter
+home: MySplashScreen(
+          loadtimeSec: 10,
+          loading: true,
+        //  assetimage: "assets/images/test.png",
+          networkimage: "https://cn.i.cdn.ti-platform.com/cnapac/content/2016/showpage/ben-10/in/showicon.png",
+          //Next Screen mean After Spalsh Screen open new Widget
+          nextscreen: Gonext(),
+          backcolor: Colors.brown,
+          bottomtext: 'My Splash Screen',
+          bottomtextstyle: TextStyle(
+              color: Colors.white, fontSize: 15, fontWeight: FontWeight.bold),
+        ));
+'''
+
+
