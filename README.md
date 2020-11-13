@@ -33,4 +33,7 @@ home: MySplashScreen(
         ));
 '''
 
+## Example Screens 
+
+<img src="image.jpg" height="300"/> &nbsp <img src="image1.jpg" height="300"/>
 
