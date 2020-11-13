@@ -31,7 +31,7 @@ home: MySplashScreen(
           bottomtextstyle: TextStyle(
               color: Colors.white, fontSize: 15, fontWeight: FontWeight.bold),
         ));
-'''
+```
 
 ## Example Screens 
 
