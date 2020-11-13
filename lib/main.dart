@@ -20,6 +20,8 @@ class MyApp extends StatelessWidget {
         home: MySplashScreen(
           loadtimeSec: 10,
           loading: true,
+        //  assetimage: "assets/images/test.png",
+          networkimage: "https://cn.i.cdn.ti-platform.com/cnapac/content/2016/showpage/ben-10/in/showicon.png",
           nextscreen: Gonext(),
           backcolor: Colors.brown,
           bottomtext: 'My Splash Screen',
